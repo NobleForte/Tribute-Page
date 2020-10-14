@@ -1,0 +1,18 @@
+#image {
+  display:block;
+  margin: auto;
+  max-width: 50% ;
+}
+#tribute-info {
+  margin:auto;
+  width: 50%;
+
+}
+#img-caption {
+  display:block;
+  text-align: center;
+}
+#tribute-link {
+  display:block;
+  text-align: center;
+}
