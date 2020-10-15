@@ -1,18 +1,41 @@
+#header {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
 #image {
   display:block;
   margin: auto;
-  max-width: 50% ;
-}
-#tribute-info {
-  margin:auto;
-  width: 50%;
-
+  max-width:100%;
+  border-radius: 15px;
 }
 #img-caption {
   display:block;
   text-align: center;
+  position: relative;
+  top: -25px;
+  left: 85px;
+  color: white;
 }
+
+#tribute-info {
+  margin:auto;
+  width: 50%;
+  background: #552583;
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+
+}
+
 #tribute-link {
+  width: 100%;
+  background: yellow;
+  padding:15px;
   display:block;
   text-align: center;
+}
+
+footer {
+  margin-top: 25px;
+  display: flex;
 }
