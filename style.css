@@ -1,6 +1,8 @@
 #header {
   text-align: center;
   font-family: 'Questrial', sans-serif;
+  background-color: #552583;
+  color: white;
 }
 #image {
   display:block;
@@ -9,27 +11,29 @@
   border-radius: 15px;
 }
 #img-caption {
-  display:block;
+  margin: auto;
+  width: 50%;
+  border-radius: 15px;
   text-align: center;
-  position: relative;
-  top: -25px;
-  left: 85px;
-  color: white;
+  color: black;
+  background-color: white;
+  padding: 15px;
 }
 
 #tribute-info {
   margin:auto;
   width: 50%;
-  background: #552583;
-  color: white;
+  color: black;
   padding: 25px;
   border-radius: 15px;
-
+  background-color: white;
+  text-align: center;
 }
 
 #tribute-link {
   width: 100%;
-  background: yellow;
+  background: #552583;
+  color: white;
   padding:15px;
   display:block;
   text-align: center;
@@ -38,4 +42,7 @@
 footer {
   margin-top: 25px;
   display: flex;
+}
+#main {
+  background-color: yellow;
 }
